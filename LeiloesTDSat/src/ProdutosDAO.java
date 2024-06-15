@@ -27,7 +27,7 @@ public class ProdutosDAO {
         
         //conn = new conectaDAO().connectDB();
         
-        
+        System.out.println("Bem vindo ao programa");
     }
     
     public ArrayList<ProdutosDTO> listarProdutos(){
