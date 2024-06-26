@@ -1,14 +1,5 @@
 package leiloes.model;
 
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author Adm
- */
 
 import leiloes.model.ProdutosDTO;
 import java.sql.PreparedStatement;
@@ -26,9 +17,9 @@ public class ProdutosDAO {
     ArrayList<ProdutosDTO> listagem = new ArrayList<>();
     
     public void cadastrarProduto (ProdutosDTO produto){
+               
         
-        
-        //conn = new conectaDAO().connectDB();
+        conn = new conectaDAO().connectDB();
         
         System.out.println("Bem vindo ao programa");
     }
